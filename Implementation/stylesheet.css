@@ -1,0 +1,121 @@
+#welcome{
+background-color: none;
+font-size: 34pt;
+font-weight: bold;
+margin-left: 35%;
+margin-top: 17%;
+
+}
+
+#text{
+background-color: none;
+font-size: 13pt;
+font-weight: bold;
+margin-left: 1%;
+margin-top: 14%;
+
+}
+
+#Deptext{
+background-color: none;
+font-size: 13pt;
+font-weight: bold;
+margin-left: 1%;
+margin-top: 9%;
+color: black;
+
+}
+
+#EmpText{
+background-color: none;
+font-size: 13pt;
+font-weight: bold;
+margin-left: 1%;
+margin-top: 9%;
+color: black;
+
+}
+
+
+#ProjText{
+background-color: none;
+font-size: 13pt;
+font-weight: bold;
+margin-left: 1%;
+margin-top: 9%;
+color: black;
+
+}
+
+.sideMenu
+{
+	font-size: medium;
+	text-align: right;
+	display:inline;
+	position: absolute;
+	left: 0;
+	top:0;
+	margin-left: 60%;
+
+
+}
+
+.sideMenu ul{
+	list-style-type: none;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.sideMenu li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+    text-align: center;
+    padding: 14px 16px;	
+
+}
+
+.sideMenu li{
+	font-size: 16pt;
+	font-family: impact;
+	text-align: center;
+	float: right;
+
+
+}
+
+/*
+navigation bar hover code
+*/
+
+li > a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+li > a:hover {
+  color: #000;
+}
+
+li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+li > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
